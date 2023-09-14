@@ -41,6 +41,7 @@ namespace Blog.Turnmeup.API.Tests.Controllers
             }
         };
 
+
             Repository = new Mock<IBaseRepository<Course>>();
 
             Repository.Setup(x => x.GetAll())
